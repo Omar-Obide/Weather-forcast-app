@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+  width: 50%;
+  user-select: none;
+}
+
+.icon {
+  position: absolute;
+  bottom: 28%;
+  left: 15px;
+  font-size: larger;
+}
+
+.input {
+  padding: 10px 20px 10px 45px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #A9A9A9;
+}
+
+.input-dark {
+  border: 1.8px solid #A9A9A9;
+  color: A9A9A9;
+}
+
+.input-light {
+  border: 1.8px solid black;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.list{
+  height: 300px;
+  overflow-y: scroll;
+  color: #bebebe;
+  position: absolute;
+  background-color: #252527;
+  top: 53px;
+  padding-top: 0;
+  z-index: 1;
+  left: -40px;
+}
+
+.list::-webkit-scrollbar{
+  width: 10px;
+  background-color: #d8d8d8;
+  border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb{
+  background: #696969;
+  border-radius: 10px;
+  margin: 1px 0;
+}

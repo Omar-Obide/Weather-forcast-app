@@ -1,0 +1,11 @@
+.dark-mode {
+  display: flex;
+  position: relative;
+  margin-right: 30px;
+}
+
+.icon {
+  font-size: x-large;
+  position: absolute;
+  cursor: pointer;
+}

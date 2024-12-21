@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.icon {
+  font-size: x-large;
+  position: absolute;
+  cursor: pointer;
+}
+
+.setting-active {
+  color: #888888;
+}
+
+.setting {
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.parent{
+  position: absolute;
+  background-color: #333333;
+  padding: 10px 30px 10px 10px;
+  border-radius: 6px;
+  bottom: -130px;
+  left: -140px;
+  width: max-content;
+  z-index: 9;
+}
+
+.parent::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  border-width: 8px;
+  border-color: transparent transparent #333333 transparent;
+  top: -15px;
+  left: 78%;
+  border-style: solid;
+}
+
+.parent span {
+  padding-left: 5px;
+}
+
+.span{
+  color: #ebebeb;
+}
+
+.units {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.units button:first-child{
+  display: none;
+}
+
+.units button {
+  cursor: pointer;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.units button:hover{
+  background-color: rgba(156, 156, 156, 0.9);
+}
+
+.active{
+  background-color: rgba(156, 156, 156, 0.9);
+}
+

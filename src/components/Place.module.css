@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  font-size: 18px;
+  width: 35%;
+}
+
+.city {
+  font-weight: bold;
+  margin: 0 2px 0 4px;
+}
+
+.dark-country {
+  font-weight: 100;
+  color: #d2d2d2;
+}
+
+.light-country{
+  color: rgb(57, 57, 57);
+}
+
+.icon {
+  font-size: larger;
+}

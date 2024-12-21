@@ -1,0 +1,84 @@
+.header {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.header-dark {
+  color: #bebebe;
+}
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.card-content div div {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.card-content {
+  border: 1px solid #696969;
+  border-radius: 10px;
+  height: 100%;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-content-dark {
+  color: #bebebe;
+}
+
+.container:focus {
+  outline: none;
+}
+
+.container::-webkit-scrollbar {
+  height: 8px;
+  background-color: #bebebe;
+  border-radius: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #696969;
+  border-radius: 10px;
+}
+
+.card {
+  min-width: 102px;
+  margin-right: 12px;
+  margin-bottom: 0px;
+}
+
+.date {
+  padding-top: 0px;
+}
+
+.wind {
+  font-size: 12px;
+}
+
+.droplet {
+  margin-right: 1px;
+  position: relative;
+  top: 1px;
+}
+
+.paper-rocket {
+  position: relative;
+  top: 3px;
+  margin-left: 3px;
+}
+
+.day-date {
+  position: relative;
+  top: -10px;
+}
+
+.parent {
+  position: relative;
+  margin-bottom: 5px;
+  height: max-content;
+}

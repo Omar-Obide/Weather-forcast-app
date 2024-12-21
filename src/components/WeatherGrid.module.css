@@ -1,0 +1,24 @@
+.container {
+  padding: 10px 47px;
+}
+
+.light-mode {
+  font-size: smaller;
+}
+
+.main {
+  font-size: 24px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 70vh;            
+  text-align: center;  
+}
+
+.main-dark {
+  color: #bebebe;
+}
+
+p {
+  margin: auto;
+}

@@ -1,0 +1,35 @@
+.list {
+  max-height: 300px;
+  overflow-y: scroll;
+  color: #bebebe;
+  position: absolute;
+  background-color: #252527;
+  top: 47.2px;
+  padding-top: 0;
+  z-index: 1;
+  left: -40px;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.list-dark {
+  color: #bebebe;
+  background-color: #252527;
+}
+
+.list-light {
+  color: #252527;
+  background-color: #eeeeee;
+}
+
+.list::-webkit-scrollbar {
+  width: 10px;
+  background-color: #d8d8d8;
+  border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: #696969;
+  border-radius: 10px;
+  margin: 1px 0;
+}
