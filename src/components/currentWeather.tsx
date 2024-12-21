@@ -52,11 +52,11 @@ const CurrentWeather = () => {
             >
               <div>
                 <img
-                  src={`src/assets/set04/big/${data?.current.icon_num}.png`}
+                  src={`public/assets/set04/big/${data.current.icon_num}.png`}
                 />
               </div>
               <div className={styles.temp}>
-                {Math.round(data?.current.temperature)}{" "}
+                {Math.round(data.current.temperature)}{" "}
                 {currentUnits.temperature}
               </div>
               <div
@@ -66,7 +66,7 @@ const CurrentWeather = () => {
                     : `${styles["feels-like"]}`
                 }
               >
-                Feels like {data?.current.feels_like} {currentUnits.temperature}
+                Feels like {data.current.feels_like} {currentUnits.temperature}
               </div>
               <div
                 className={
@@ -108,7 +108,7 @@ const CurrentWeather = () => {
                       <span className={styles.icon}>
                         <BsDroplet />
                       </span>
-                      {data?.current.precipitation.total}{" "}
+                      {data.current.precipitation.total}{" "}
                       {currentUnits.precipitation}
                     </div>
                     <div className={styles.text}>precipitation</div>
@@ -127,7 +127,7 @@ const CurrentWeather = () => {
                       <span className={styles.icon}>
                         <BsCloudsFill />
                       </span>
-                      {data?.current.cloud_cover} {currentUnits.cloud_cover}
+                      {data.current.cloud_cover} {currentUnits.cloud_cover}
                     </div>
                     <div className={styles.text}>Cloud cover</div>
                   </div>

@@ -5,7 +5,7 @@ import axios, { AxiosRequestConfig } from "axios";
 const axiosInstance = axios.create({
   baseURL: "https://ai-weather-by-meteosource.p.rapidapi.com",
   headers: {
-    "x-rapidapi-key": "0e5b62d35amshec7ffd06706a706p159c71jsn12667642a348",
+    "x-rapidapi-key": "",
     "X-RapidAPI-Host": "ai-weather-by-meteosource.p.rapidapi.com",
   },
 });
