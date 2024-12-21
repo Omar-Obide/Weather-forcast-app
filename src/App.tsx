@@ -1,3 +1,4 @@
+import { useColorScheme } from "@mui/material";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import WeatherGrid from "./components/WeatherGrid";
@@ -14,9 +15,15 @@ function App() {
   const [placeID, setPlaceID] = useState<string>("");
   const [location, setLocation] = useState<string>("");
   const { data } = useCurrentWeather();
-  const [units, setUnits] = useState<"metric" | "us" | "uk" | "ca">(data?.units || 'metric');
+  const [units, setUnits] = useState<"metric" | "us" | "uk" | "ca">(
+    data?.units || "metric"
+  );
   const [currentUnits, setCurrentUnits] = useState<CurrentUnits>(UNITS.metric);
   const [text, setText] = useState<string>("");
+  const { mode, setMode } = useColorScheme();
+  if (mode === "system") {
+    setMode("dark");
+  }
 
   return (
     <TextContext.Provider value={{ text, setText }}>
