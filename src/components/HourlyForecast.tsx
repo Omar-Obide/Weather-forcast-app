@@ -88,7 +88,7 @@ const HourlyForecast = () => {
                     <div className={styles.date}>{modifiedDate(e.date)}</div>
                     <div>
                       <img
-                        src={`public/assets/set04/medium/${e.icon}.png`}
+                        src={`/assets/set04/medium/${e.icon}.png`}
                         alt={e.icon.toString()}
                       />
                     </div>

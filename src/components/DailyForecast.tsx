@@ -78,7 +78,7 @@ const DailyForecast = () => {
                 {/* public/assets/set04/big/${data.current.icon_num}.png */}
                 <div>
                   <div>
-                    <img src={`public/assets/set04/medium/${e.icon}.png`} />
+                    <img src={`/assets/set04/medium/${e.icon}.png`} />
                   </div>
                   <div className={styles.temp}>
                     <div

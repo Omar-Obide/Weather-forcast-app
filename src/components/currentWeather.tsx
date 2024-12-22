@@ -52,7 +52,7 @@ const CurrentWeather = () => {
             >
               <div>
                 <img
-                  src={`public/assets/set04/big/${data.current.icon_num}.png`}
+                  src={`/assets/set04/big/${data.current.icon_num}.png`}
                 />
               </div>
               <div className={styles.temp}>
